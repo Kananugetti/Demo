@@ -1,2 +1,7 @@
 h1 {color:darkblue;}
-backgroung {color:deeppink;}
+div {
+    background:deeppink
+    color:lawngreen
+    border:deepskyblue
+}
+
