@@ -9,4 +9,4 @@ color: green;}
     height: 100px}
 ul {list-style-type: square;}
 ol {list-style-type: lower-latin;}
-link {text-align: right;}
+a {text-align: right;}
