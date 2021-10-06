@@ -1,2 +1,22 @@
 div {text-align: right;}
+body {background-color: cornflowerblue;}
+
+h1 {border-style: dotted;
+border-color: red;
+padding: 20px;
+width: 200px;
+margin-left: 20px;}
+
+p {border-radius: 25px;
+background: yellow;
+padding: 20px;
+width: 200px;
+height: 100px;
+margin-top: 20px;
+margin-bottom: 40px;
+margin-left: 20px;}
+
+progress {margin-left: 20px;}
+
+
 
