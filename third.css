@@ -1,2 +1,25 @@
-nav {background-color:red;
-float: left;}
+header {width: 100%;
+background-color: salmon;
+text-align: center;
+font-size: 40px;
+height: 100px;
+color: gold;}
+
+nav {background-color:rgb(255, 145, 0);
+float: left;
+width: 40%;
+height:200px;
+font-size: 20px;
+color: black);
+text-align: center;}
+
+section {background-color: sandybrown;
+height: 200px;
+width: 60%;
+float: right;
+text-align: center;
+font-size: 25px;
+color:black;}
+
+ul {list-style-type: none;}
+
