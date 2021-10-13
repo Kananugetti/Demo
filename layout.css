@@ -17,3 +17,6 @@ width: 70%;
 height: 100px;
 color: rgb(38, 0, 128);
 float: left;}
+body {width: 90%;
+margin-left: auto;
+margin-right: auto;}
