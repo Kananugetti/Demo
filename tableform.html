@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="tableform.css">
+<title>Pöytä</title>
+</head>
+
+<body>
+<table>
+    
+<caption>Vuosisäästöt</caption>
+<tr>
+    <th>Kuukausi</th>
+    <td>Tammikuu</td><td>Helmikuu</td><td>Maaliskuu</td><td>Huhtikuu</td><td>Toukokuu</td>
+</tr>
+<tr>
+    <th>Avustukset</th>
+    <td>50e</td><td>900e</td><td>700e</td><td>600e</td><td>300e</td>
+</tr>
+<tr>
+    <th rowspan="2">Kuukauden tulot 2 viikon jaksoissa</th>
+    <td>3100e</td><td>1400e</td><td>2400e</td><td>3000e</td><td>2000e</td>
+</tr>
+<tr><td>3100e</td><td>1000e</td><td>1000e</td><td>800e</td><td>2150e</td>
+</tr>
+</table>
+
+<h1>Valitukset!!!!!!!!</h1>
+<form action="https://www.w3schools.com/action_page.php">
+<textarea rows="4" cols="80" name="Kommentti">
+</textarea>
+    <input type="submit">
+    </form>
+    <h2>Perustiedot</h2>
+    <form action="https://www.w3schools.com/action_page.php">
+    <fieldset>
+        <legend>Sinun tiedot</legend>
+        <label for="fname">Etunimi:</label>
+        <input type="text" id="fname" name="Etunimi"><br><br>
+        <label for="lname">Sukunimi:</label>
+        <input type="text" id="lname" name="Sukunimi"><br><br>
+        <label for="email">Sähköposti:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="submit" value="Lähetä">
+    </fieldset>
+    </form>
+    <h3>Oletko tyytyväinen?</h3>
+    <form action="https://www.w3schools.com/action_page.php">
+        <input type="checkbox" id="vastaus1" name="vastaus" value="Olen">
+        <label for="vastaus1"> Olen</label><br>
+        <input type="checkbox" id="vastaus2" name="vastaus" value="En">
+        <label for="vastaus2"> En</label><br>
+        <input type="checkbox" id="vastaus3" name="vastaus" value="En ole varma">
+        <label for="vastaus3"> En ole varma</label><br><br>
+        <input type="submit" value="Lähetä">
+      </form>
+      <h4>Valitse leivos</h4>
+      <form action="https://www.w3schools.com/action_page.php">
+        <label for="leivos">Lempi leivos:</label>
+        <select name="vastaus" id="leivos" required>
+          
+            <option value="">Valitse</option>
+          <option value="Mansikkakakku">Mansikkakakku</option>
+          <option value="Sitruunamuffinssi">Sitruunamuffinssi</option>
+          <option value="Suklaakeksi">Suklaakeksi</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Lähetä">
+      </form>
+</body>
+
+</html>
