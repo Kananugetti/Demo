@@ -1,0 +1,32 @@
+.laatikko 
+{box-shadow: 5px 5px;
+background-color: cornsilk;
+padding-left: 50px;
+padding-right: 50px;
+width: 200px;
+height: 200px;
+text-align: center;
+padding-top: 10px;}
+
+body {background-color: khaki;}
+
+.laatikko2 
+{background-color: cornsilk;
+background-image: url(images/onepunch.jpg);
+background-size: cover;
+width: 200px;
+height: 200px;
+color: white;}
+
+h1 {text-shadow: 3px 3px;}
+
+a:hover {
+color: red;
+transition: 1s;}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color:black;
+      color: white;
+    }
+  }
