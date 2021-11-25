@@ -17,6 +17,7 @@ body {background-color: lightgoldenrodyellow;}
 .Eka {padding-top: 15px;}
 .Toka {padding-top: 15px;}
 .Kolmas {padding-top: 15px;}
+.Neljas {padding-top: 15px;}
 
 a:link {color: black;}
 a:visited {color: black;}
@@ -37,8 +38,10 @@ padding-top: 10px;}
 .Palaute {float: left;
     padding-left: 20px;}
 
+.kuvalinkit:hover {transition: 0.5s; color: khaki;}
+
 h2 {font-size: 25px;}
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
     body {color:black;
     }
   }
