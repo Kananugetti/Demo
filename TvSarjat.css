@@ -24,7 +24,6 @@ a:hover {color: black;}
 a:active {color: black;}
 
 footer {background-color: khaki;
-    position:fixed;
     bottom:0;
     width:100%;
     height:50px; 
@@ -40,8 +39,6 @@ padding-top: 10px;}
 
 h2 {font-size: 25px;}
 @media only screen and (max-width: 600px) {
-    body {
-      
-      color:black;
+    body {color:black;
     }
   }

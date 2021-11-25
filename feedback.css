@@ -1,5 +1,5 @@
 footer {background-color: khaki;
-    position:absolute;
+    position: absolute;
     bottom:0;
     width:100%;
     height:50px; 
@@ -25,17 +25,16 @@ header {text-align: center;
     background-color: khaki;
     width: 100%;
     height: 100px;}
+
+h2 {font-size: 25px;}
     
-    
-    .house-fill {float: left;
+.house-fill {float: left;
         padding-left: 15px;}
 
-        .Palaute {float: left;
+.Palaute {float: left;
             padding-left: 20px;}
 
-            @media only screen and (max-width: 600px) {
-                body {
-                  
-                  color:black;
-                }
-              }
+ @media only screen and (max-width: 600px) {
+    body {color:black;
+    }
+  }
