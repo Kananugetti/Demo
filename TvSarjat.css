@@ -41,7 +41,7 @@ padding-top: 10px;}
 .kuvalinkit:hover {transition: 0.5s; color: khaki;}
 
 h2 {font-size: 25px;}
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
     body {color:black;
     }
   }
