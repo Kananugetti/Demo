@@ -32,3 +32,10 @@ header {text-align: center;
 
         .Palaute {float: left;
             padding-left: 20px;}
+
+            @media only screen and (max-width: 600px) {
+                body {
+                  
+                  color:black;
+                }
+              }
